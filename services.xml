@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<yml_catalog date="2023-04-12 12:10">
+  <shop>
+    <name>Видеогрф Кострома</name>
+    <company>Видеограф Кострома</company>
+    <url>https://www.zakaz-videografa.ru</url>
+    <email>denisfotoman@yandex.ru</email>
+    <currencies>
+      <currency id="RUR" rate="1" />
+    </currencies>
+    <categories>
+      <category id="1">Исполнитель</category>
+      <category id="2" parentId="1">Видеограф на свадьбу</category>
+      <category id="3" parentId="2">Свадебный оператор</category>
+      <category id="4" parentId="3">Фотограф на свадьбу</category>
+      <category id="5" parentId="3">Видеограф Кострома</category>
+      <category id="6" parentId="3">Видеограф для рекламы</category>
+    </categories>
+    <!--Добавили sets по сравнению с обычным YML-->
+    <sets>
+      <set id="s1">
+        <name>Услуги Видеографа в Костроме</name>
+        <url>https://www.zakaz-videografa.ru</url>
+      </set>
+      
+    </sets>
+    <offers>
+      <offer id="1">
+        <name>Денис Л.</name>
+        <url>https://www.zakaz-videografa.ru</url>
+        <price from="true">2000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за Час</sales_notes>
+        <categoryId>4</categoryId>
+        <set-ids>s1</set-ids><!--Можно указать и несколько сетов через запятую-->
+        <description>Професиональный Видеограф в Костроме</description>
+        <adult>false</adult>
+        <expiry>P5Y</expiry>
+        <!--Этот набор параметров обязателен-->
+        <param name="Рейтинг">5.0</param>
+        <param name="Число отзывов">0</param>
+        <param name="Годы опыта">15</param>
+        <param name="Регион">Кострома</param>
+        <param name="Конверсия">1.935</param><!--Это произвольное число, оно не обязано быть от 0 до 1-->
+        <!--Этот набор параметров необязателен-->
+        <param name="Ссылка на телефон">https://www.zakaz-videografa.ru</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
