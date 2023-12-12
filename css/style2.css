@@ -1,4 +1,6 @@
-
+body{
+    background: black;
+}
 
 
 
@@ -16,7 +18,7 @@
     padding: 10px;
     border: none;
     background: #fff;
-    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 35px #fff;
     position: fixed;
     bottom: 50px;
     right: 50px;
@@ -27,7 +29,7 @@
 
 }
 .pulse-button__rings {
-    border: 1px solid #000000;
+    border: 1px solid #fff;
     position: absolute;
     top: 0;
     left: 0;
@@ -80,9 +82,31 @@
 
 /* Vidjet fin  */
 
+.card {
+    background: #3a3a3a;
+    background: linear-gradient(to right, #474747, #222);
+   
+    box-shadow: -5px 5px 25px #0000009d;
+   
+}
 
-/* Kards */
+/* Kards 
 
+
+
+
+
+
+
+
+
+.card {
+    background: #3a3a3a;
+    background: linear-gradient(to right, #474747, #222);
+   
+    box-shadow: -5px 5px 25px #0000009d;
+   
+}
 
 
 /* Kards */
