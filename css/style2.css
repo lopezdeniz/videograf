@@ -84,6 +84,17 @@ body{
     }
 }
 
+.modal-content {
+box-shadow: -5px 5px 25px #fff;
+}
+
+
+.test22 {
+margin: -40px 0 0 -30px;
+}
+
+
+
 /* Vidjet fin  */
 
 .card {
