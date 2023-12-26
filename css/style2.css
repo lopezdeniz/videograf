@@ -43,6 +43,10 @@ body{
     animation-iteration-count: infinite;
     z-index: -1;
 }
+
+
+
+
 .pulse-button__rings:nth-child(2) {
     animation-name: pulse_2;
 }
@@ -95,6 +99,10 @@ body{
  box-shadow: 0 5px 35px #fff;
 }
 
+.card:active {
+ box-shadow: 0 5px 35px #fff;
+}
+
 /* test */
 
 /* Стили для кнопки */
@@ -141,8 +149,20 @@ body{
   }
 }
 
+.fa {
+color: white;
+text-decoration: none;
 
+}
 
+.fa:hover {
+color: white;
+text-decoration: none;
+}
+
+.nav-item {
+margin: 0 10px 0 0;
+}
 
 
 
