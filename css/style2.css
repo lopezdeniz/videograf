@@ -85,28 +85,23 @@ body{
 .card {
     background: #3a3a3a;
     background: linear-gradient(to right, #474747, #222);
-   
     box-shadow: -5px 5px 25px #0000009d;
    
 }
 
-/* Kards 
-
-
-
-
-
-
-
-
-
-.card {
-    background: #3a3a3a;
-    background: linear-gradient(to right, #474747, #222);
-   
-    box-shadow: -5px 5px 25px #0000009d;
-   
+/* Kards */
+.card:hover {
+ box-shadow: 0 5px 35px #fff;
 }
+
+
+
+
+
+
+
+
+
 
 
 /* Kards */
