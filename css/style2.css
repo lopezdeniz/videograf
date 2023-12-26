@@ -86,6 +86,7 @@ body{
     background: #3a3a3a;
     background: linear-gradient(to right, #474747, #222);
     box-shadow: -5px 5px 25px #0000009d;
+    border: 1px solid #fff;
    
 }
 
@@ -94,6 +95,51 @@ body{
  box-shadow: 0 5px 35px #fff;
 }
 
+/* test */
+
+/* Стили для кнопки */
+.btn {
+  border: #fff;
+  border-radius: 18px;
+  padding: 5px 20px;
+  background: linear-gradient(120deg, #3a3a3a, #3a3a3a); /* Градиентный фон кнопки для объемного эффекта */
+  color: #fff; /* Белый цвет текста на кнопке */
+  position: relative;
+  overflow: hidden;
+  font-size: 18px;
+  padding: 10px; /* Отступы внутри кнопки */
+  box-shadow: 0px 1px 10px #fff; /* Добавляем тень для трехмерного эффекта */
+}
+
+/* Стили для создания блика на кнопке */
+.btn:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%, /* Прозрачность начала блика */
+    rgba(255, 255, 255, 0.8), /* Цвет блика */
+    rgba(255, 255, 255, 0) 70% /* Прозрачность конца блика */
+  );
+  top: 0;
+  left: -100px;
+  animation: shine 2s infinite linear; /* Анимация блика */
+}
+
+/* Ключевые кадры для анимации блика */
+@keyframes shine {
+  0% {
+    left: -100px; /* Начальная позиция блика (левая сторона кнопки) */
+  }
+  20% {
+    left: 100%; /* Позиция блика в конце (правая сторона кнопки) */
+  }
+  100% {
+    left: 100%; /* Завершение анимации */
+  }
+}
 
 
 
@@ -102,6 +148,4 @@ body{
 
 
 
-
-
-/* Kards */
+/* test */
