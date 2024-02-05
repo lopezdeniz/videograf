@@ -17,3 +17,4 @@ echo "<p style='text-align:center;'><button style='width:600px;height:200px;font
 } else { 
     echo "<p style='font-size: 55px;'>при отправке сообщения возникли ошибки</p>";
 }?>
+https://t.me/+jKOR1bRGr-9hNjNi
